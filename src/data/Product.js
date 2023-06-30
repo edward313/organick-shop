@@ -1,0 +1,58 @@
+export const ProductItem = [
+  {
+    id: 1,
+    name: "Calabrese Broccoli",
+    price: 13.0,
+    type: "Vegetable",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/iqws29mzlxd3yqvva1tr",
+  },
+  {
+    id: 2,
+    name: "Fresh Banana Fruites",
+    price: 14.0,
+    type: "Fresh",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/ljz3vbarahxcl4hx4nhd",
+  },
+  {
+    id: 3,
+    name: "White Nuts",
+    price: 15.0,
+    type: "Millets",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/kg4j3dpn1mietyit1s74",
+  },
+  {
+    id: 4,
+    name: "Vegan Red Tomato",
+    price: 17.0,
+    type: "Vegetable",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/vdhkc5ejoe6uozazupbc",
+  },
+  {
+    id: 5,
+    name: "Mung Bean",
+    price: 11.0,
+    type: "Health",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/jk1c9onl4d7bgwxfqtvi",
+  },
+  {
+    id: 6,
+    name: "Brown Hazelnut",
+    price: 12.0,
+    type: "Nuts",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/zltame01xx5uixzpf7as",
+  },
+  {
+    id: 7,
+    name: "Eggs",
+    price: 17.0,
+    type: "Fresh",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/pv1qucu9dair9fgkbwb6.png",
+  },
+  {
+    id: 8,
+    name: "Zelco Suji Elaichi Rusk",
+    price: 15.0,
+    type: "Fresh",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/yxynjk2haxnktyoi5xmq",
+  },
+];
