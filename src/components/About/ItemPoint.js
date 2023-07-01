@@ -1,10 +1,10 @@
 import React from "react";
-import vegan from "../../assets/vegan-food.svg";
+
 const ItemPoint = ({ item }) => {
   return (
     <div className=" flex mb-4 ">
       <div className="w-[100px] h-[100px] bg-white flex justify-center items-center rounded-[20px] ">
-        <img src={item.img} className></img>
+        <img src={item.img} alt=""></img>
       </div>
 
       <div className="ml-3">

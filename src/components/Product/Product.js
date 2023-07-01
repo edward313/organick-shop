@@ -1,13 +1,17 @@
 import React from "react";
 // import product from "../../assets/product-1.png";
 import star from "../../assets/Star.svg";
+import { Link } from "react-router-dom";
 const Product = ({ item }) => {
   console.log(item);
   return (
-    <div className="w-[335px] h-[483px] bg-[#F9F8F8] pt-[60px] rounded-[33px]  relative ">
-      <img
-        src={item.img}
-        className="flex object-center  mix-blend-multiply w-[328px] h-[328px] object-contain"></img>
+    <div className="w-[335px] h-[483px] bg-[rgb(249,248,248)] pt-[60px] rounded-[33px]  relative ">
+      <Link to={`/product/${item.id}`}>
+        <img
+          src={item.img}
+          alt="product"
+          className="flex object-center  mix-blend-multiply w-[328px] h-[328px] object-contain"></img>
+      </Link>
 
       <div className="px-[30px]">
         <h4 className="font-roboto text-xl text-primary font-extrabold border-b-2 pb-[13px] border-[#DEDDDD] ">
@@ -19,7 +23,7 @@ const Product = ({ item }) => {
             $ {item.price}.00
           </span>
           <div>
-            <img src={star}></img>
+            <img src={star} alt="star"></img>
           </div>
         </div>
       </div>
