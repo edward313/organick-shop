@@ -3,9 +3,11 @@ import left from "../../assets/left-counter.png";
 import right from "../../assets/right-counter.png";
 import avatar from "../../assets/avatar.png";
 import star from "../../assets/Star.svg";
+import chart from "../../assets/chart.png";
+import CounterItem from "./CounterItem";
 const Counter = () => {
   return (
-    <div className="mt-20 bg-[#FCFCFC] w-[full] h-[1267px] relative">
+    <div className="mt-[100px] bg-[#FCFCFC] w-[full] h-[1267px] relative">
       <img src={left} className="absolute left-0"></img>
       <img src={right} className="absolute right-0"></img>
 
@@ -32,6 +34,18 @@ const Counter = () => {
               Consumer
             </span>
           </div>
+          {/* stroke */}
+        </div>
+
+        <div className="border-solid border-0 border-t border-[#E0E0E0] my-[100px]"></div>
+
+        {/* count */}
+
+        <div className="w-[1003px] mx-auto flex justify-between">
+          <CounterItem title={"Organic"} stats={"100%"}></CounterItem>
+          <CounterItem title={"Active Product"} stats={"285"}></CounterItem>
+          <CounterItem title={"Organic Orchads"} stats={"350+"}></CounterItem>
+          <CounterItem title={"Years of Farming"} stats={"25+"}></CounterItem>
         </div>
       </div>
     </div>
