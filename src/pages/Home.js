@@ -5,6 +5,8 @@ import About from "../components/About/About.js";
 import OurProduct from "../components/Product/OurProduct";
 import Counter from "../components/Counter/Counter";
 import OfferProduct from "../components/Product/OfferProduct";
+import Who from "../components/About/Who";
+import Newslatteer from "../components/News/Newslatteer";
 const Home = () => {
   return (
     <div>
@@ -14,6 +16,8 @@ const Home = () => {
       <OurProduct></OurProduct>
       <Counter></Counter>
       <OfferProduct></OfferProduct>
+      <Who></Who>
+      <Newslatteer></Newslatteer>
     </div>
   );
 };

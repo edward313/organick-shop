@@ -22,7 +22,7 @@ console.log(itemAbout);
 const About = () => {
   return (
     <div className="w-full h-[1067px] bg-gray">
-      <div className="flex mx-auto w-[1700px] ">
+      <div className="flex mx-auto  max-w-[1700px]">
         {/* img */}
         <div>
           <img className=" mt-[60px]" src={about}></img>
