@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ProductsList from "./ProductsList";
+import { ProductItem } from "../../data/Product";
 const OurProduct = () => {
   return (
     <div className=" my-[100px] mx-auto flex flex-col items-center">
@@ -8,7 +9,7 @@ const OurProduct = () => {
       <h2 className="font-roboto text-5xl text-primary font-extrabold">
         Our Products
       </h2>
-      <ProductsList></ProductsList>
+      <ProductsList ProductItem={ProductItem}></ProductsList>
 
       <Link
         className="mt-[122px] px-[46px] py-[28px] bg-primary text-white rounded-2xl font-roboto font-bold text-xl"
