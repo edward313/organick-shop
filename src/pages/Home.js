@@ -7,6 +7,7 @@ import Counter from "../components/Counter/Counter";
 import OfferProduct from "../components/Product/OfferProduct";
 import Who from "../components/About/Who";
 import Newslatteer from "../components/News/Newslatteer";
+import BannerCta from "../components/Banner/BannerCta";
 const Home = () => {
   return (
     <div>

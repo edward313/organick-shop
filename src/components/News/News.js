@@ -10,7 +10,7 @@ const News = ({ banner, title }) => {
       style={{ backgroundImage: `url(${banner})` }}>
       {/* time */}
       <div className="w-[82px] h-[82px] rounded-full bg-white flex items-center justify-center absolute top-[43px] left-[34px]">
-        <span className="font-roboto font-bold text-[25px] text-primary px-[15px] py-[15px] text-center ">
+        <span className="font-roboto font-bold text-[25px] text-primary px-[15px] py-[15px] text-center leading-6 ">
           25 Nov
         </span>
       </div>

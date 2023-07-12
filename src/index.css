@@ -5,6 +5,16 @@
 
 @layer base {
   .box {
-    @apply w-[1400px] mx-auto;
+    @apply w-[1400px] mx-auto max-w-[100%-36px];
+  }
+
+  .sub-title {
+    @apply font-yellowtail text-green text-4xl;
+  }
+  .healing {
+    @apply font-roboto text-primary text-[50px] font-extrabold  leading-[1.25];
+  }
+  .desc {
+    @apply font-Open text-lg text-[#525C60];
   }
 }

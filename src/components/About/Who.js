@@ -3,9 +3,9 @@ import farm from "../../assets/farm.jpg";
 import WhoItem from "./WhoItem";
 const Who = () => {
   return (
-    <div className="flex items-center relative w-[1920px] mx-auto">
-      <img src={farm}></img>
-      <div className="w-[789px] h-[733px] bg-white absolute right-[260px] rounded-3xl px-[90px] py-[78px] shadow ">
+    <div className="flex items-center relative w-[1900px] mx-auto overflow-y-hidden max-w-[100%-36px]">
+      <img src={farm} className=""></img>
+      <div className="w-[38%] h-[733px] bg-white absolute right-[16.5%] rounded-3xl px-[90px] py-[78px] shadow ">
         <span className="font-yellowtail text-green text-4xl">
           Eco Friendly
         </span>
