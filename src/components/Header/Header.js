@@ -11,13 +11,15 @@ const Header = () => {
       <header>
         <div className="container w-[1600px] mx-auto  ">
           <div className="flex  items-center py-16  justify-between">
-            <img src={logo} alt="no" className="" />
+            <Link to="/">
+              <img src={logo} alt="no" className="" />
+            </Link>
             {/* navagition */}
             <ul className="flex items-center gap-12 font-bold text-xl space-x-3  ">
-              <Link to="/about-us">Home</Link>
+              <Link to="/">Home</Link>
               <Link to="/about-us">About</Link>
-              <Link to="/about-us">Shop</Link>
-              <Link to="/about-us">Category</Link>
+              <Link to="/shop">Shop</Link>
+              <Link to="/Categogy">Category</Link>
             </ul>
 
             {/* actions */}

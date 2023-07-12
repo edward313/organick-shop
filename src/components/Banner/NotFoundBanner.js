@@ -6,7 +6,7 @@ const NotFoundBanner = () => {
   return (
     <div className=" ">
       <div
-        className="w-[full] h-[898px] mx-auto  "
+        className="w-[full] h-[898px] mx-auto bg-no-repeat "
         style={{
           backgroundImage: `url(${leaf})`,
         }}>
