@@ -1,6 +1,8 @@
 import React from "react";
 import Profile from "./Profile";
-
+import Profile_1 from "../../assets/profile-1.jpg";
+import Profile_2 from "../../assets/profile-2.jpg";
+import Profile_3 from "../../assets/profile-3.jpg";
 const Team = () => {
   return (
     <div>
@@ -15,9 +17,12 @@ const Team = () => {
           </p>
         </div>
         <div className="flex gap-5 mt-[42px]">
-          <Profile></Profile>
-          <Profile></Profile>
-          <Profile></Profile>
+          <Profile name="Giovani Bacardo" work="farm" img={Profile_1}></Profile>
+          <Profile name="Keira Knightley" work="farm" img={Profile_2}></Profile>
+          <Profile
+            name="Scott Lawrence"
+            work="design"
+            img={Profile_3}></Profile>
         </div>
       </div>
     </div>

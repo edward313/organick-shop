@@ -45,6 +45,18 @@ const ProductSingle = () => {
                       took a galley.
                     </p>
                   </div>
+                  <div className="mt-[35px]">
+                    <span className="font-roboto text-2xl font-bold">
+                      Quality :
+                    </span>
+                    <input
+                      type="number"
+                      className="  rounded-2xl w-[134px] h-[80px] bg-gray font-roboto text-xl text-center ml-[22px] px-2"></input>
+
+                    <button className="bg-primary font-roboto text-xl text-white px-[46px] py-[28px] inline-flex rounded-2xl text-left mt-5 ml-5">
+                      Add to cart
+                    </button>
+                  </div>
                 </div>
               </div>
             );

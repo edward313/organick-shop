@@ -55,4 +55,32 @@ export const ProductItem = [
     type: "Fresh",
     img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1688143222/organick/yxynjk2haxnktyoi5xmq",
   },
+  {
+    id: 9,
+    name: "Zelco Suji Elaichi Rusk",
+    price: 15.0,
+    type: "Fresh",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1689257512/organick/product-9_t7x89e.png",
+  },
+  {
+    id: 10,
+    name: "Zelco Suji Elaichi Rusk",
+    price: 15.0,
+    type: "Fresh",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1689257515/organick/product-10_ttakps.png",
+  },
+  {
+    id: 11,
+    name: "Zelco Suji Elaichi Rusk",
+    price: 15.0,
+    type: "Fresh",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1689257518/organick/product-11_rzyc03.png",
+  },
+  {
+    id: 12,
+    name: "Zelco Suji Elaichi Rusk",
+    price: 15.0,
+    type: "Fresh",
+    img: "https://res.cloudinary.com/dxpqggfng/image/upload/v1689257521/organick/product-12_ul8idt.png",
+  },
 ];

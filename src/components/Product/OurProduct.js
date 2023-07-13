@@ -9,7 +9,7 @@ const OurProduct = () => {
       <h2 className="font-roboto text-5xl text-primary font-extrabold">
         Our Products
       </h2>
-      <ProductsList ProductItem={ProductItem}></ProductsList>
+      <ProductsList ProductItem={ProductItem.slice(0, 8)}></ProductsList>
 
       <Link
         className="mt-[122px] px-[46px] py-[28px] bg-primary text-white rounded-2xl font-roboto font-bold text-xl"
