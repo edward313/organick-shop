@@ -6,7 +6,7 @@ import arrow from "../../assets/Arrow.svg";
 const Hero = () => {
   return (
     <div
-      className="w-full h-[897px] object-cover relative bg-no-repeat bg-cover mx-auto "
+      className="w-full h-[897px] object-cover relative bg-no-repeat bg-cover mx-auto max-w-[100%-20px]"
       style={{
         backgroundImage: `url(${Bg} )`,
       }}>

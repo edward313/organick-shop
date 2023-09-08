@@ -10,7 +10,7 @@
     margin: 0;
   }
   .box {
-    @apply w-[1400px] mx-auto max-w-[100%-36px];
+    @apply w-[1400px] mx-auto;
   }
 
   .sub-title {
@@ -22,4 +22,8 @@
   .desc {
     @apply font-Open text-lg text-[#525C60];
   }
+}
+
+body {
+  overflow-x: hidden;
 }
